@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'Eastman';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 110%;
+    color: #273a3b;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #213b3b36;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    font-family: 'Eastman';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    overflow-wrap: break-word;
+}
+
+.site-main {
+    margin: 120px 0;
+}
+.footer:before {
+    display: none !important;
+}
+
+@media (max-width: 675px) {
+    h1 {
+        font-size: 33px;
+    }
+}
